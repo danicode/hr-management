@@ -1,0 +1,56 @@
+@media (max-width: 1090px) {
+    .mobilehide {
+        display: none;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.containeremptylist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: inherit;
+}
+
+.title {
+    color: var(--terciary-color);
+    font-size: 18pt;
+}
+
+.btnedit {
+    color: var(--terciary-color);
+    background-color: var(--success-color);
+}
+
+.btnedit:hover {
+    color: var(--success-color);
+    background-color: var(--terciary-color);
+}
+
+.btndelete {
+    color: var(--terciary-color);
+    background-color: var(--error-color);
+}
+
+.btndelete:hover {
+    color: var(--error-color);
+    background-color: var(--terciary-color);
+}

@@ -1,0 +1,196 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "position": "Software Engineer",
+            "department": "IT",
+            "email": "john.doe@company.com",
+            "phone": "555-1234"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "position": "Product Manager",
+            "department": "Product",
+            "email": "jane.smith@company.com",
+            "phone": "555-5678"
+        },
+        {
+            "id": 3,
+            "name": "Michael Johnson",
+            "position": "HR Specialist",
+            "department": "Human Resources",
+            "email": "michael.johnson@company.com",
+            "phone": "555-8765"
+        },
+        {
+            "id": 4,
+            "name": "Emily Davis",
+            "position": "Marketing Coordinator",
+            "department": "Marketing",
+            "email": "emily.davis@company.com",
+            "phone": "555-4321"
+        },
+        {
+            "id": 5,
+            "name": "David Brown",
+            "position": "Data Analyst",
+            "department": "Data Science",
+            "email": "david.brown@company.com",
+            "phone": "555-7890"
+        },
+        {
+            "id": 6,
+            "name": "Sophia Wilson",
+            "position": "QA Engineer",
+            "department": "IT",
+            "email": "sophia.wilson@company.com",
+            "phone": "555-2345"
+        },
+        {
+            "id": 7,
+            "name": "James Taylor",
+            "position": "Sales Manager",
+            "department": "Sales",
+            "email": "james.taylor@company.com",
+            "phone": "555-3456"
+        },
+        {
+            "id": 8,
+            "name": "Olivia Martinez",
+            "position": "UI/UX Designer",
+            "department": "Design",
+            "email": "olivia.martinez@company.com",
+            "phone": "555-4567"
+        },
+        {
+            "id": 9,
+            "name": "Liam Anderson",
+            "position": "DevOps Engineer",
+            "department": "IT",
+            "email": "liam.anderson@company.com",
+            "phone": "555-6789"
+        },
+        {
+            "id": 10,
+            "name": "Charlotte Garcia",
+            "position": "Financial Analyst",
+            "department": "Finance",
+            "email": "charlotte.garcia@company.com",
+            "phone": "555-9876"
+        },
+        {
+            "id": 11,
+            "name": "Mason Martinez",
+            "position": "Content Writer",
+            "department": "Marketing",
+            "email": "mason.martinez@company.com",
+            "phone": "555-7654"
+        },
+        {
+            "id": 12,
+            "name": "Ava Hernandez",
+            "position": "Legal Counsel",
+            "department": "Legal",
+            "email": "ava.hernandez@company.com",
+            "phone": "555-6543"
+        },
+        {
+            "id": 13,
+            "name": "Ethan Wilson",
+            "position": "Operations Manager",
+            "department": "Operations",
+            "email": "ethan.wilson@company.com",
+            "phone": "555-5432"
+        },
+        {
+            "id": 14,
+            "name": "Isabella Martinez",
+            "position": "Customer Support",
+            "department": "Support",
+            "email": "isabella.martinez@company.com",
+            "phone": "555-4321"
+        },
+        {
+            "id": 15,
+            "name": "Logan Gonzalez",
+            "position": "Network Engineer",
+            "department": "IT",
+            "email": "logan.gonzalez@company.com",
+            "phone": "555-3210"
+        },
+        {
+            "id": 16,
+            "name": "Mia Lopez",
+            "position": "Accountant",
+            "department": "Finance",
+            "email": "mia.lopez@company.com",
+            "phone": "555-2109"
+        },
+        {
+            "id": 17,
+            "name": "Lucas Perez",
+            "position": "Business Analyst",
+            "department": "Business Intelligence",
+            "email": "lucas.perez@company.com",
+            "phone": "555-1098"
+        },
+        {
+            "id": 18,
+            "name": "Amelia Ramirez",
+            "position": "Executive Assistant",
+            "department": "Executive",
+            "email": "amelia.ramirez@company.com",
+            "phone": "555-0987"
+        },
+        {
+            "id": 19,
+            "name": "Henry Gonzalez",
+            "position": "Project Manager",
+            "department": "Project Management",
+            "email": "henry.gonzalez@company.com",
+            "phone": "555-9870"
+        },
+        {
+            "id": 20,
+            "name": "Sophia Johnson",
+            "position": "Full Stack Developer",
+            "department": "IT",
+            "email": "sophia.johnson@company.com",
+            "phone": "555-8765"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "username": "danicode",
+            "email": "dani@company.com",
+            "password": "1234"
+        },
+        {
+            "id": 2,
+            "username": "janesmith456",
+            "email": "jane.smith@company.com",
+            "password": "password456"
+        },
+        {
+            "id": 3,
+            "username": "mikejohn789",
+            "email": "michael.johnson@company.com",
+            "password": "password789"
+        },
+        {
+            "id": 4,
+            "username": "emilydavis101",
+            "email": "emily.davis@company.com",
+            "password": "password101"
+        },
+        {
+            "id": 5,
+            "username": "davidbrown202",
+            "email": "david.brown@company.com",
+            "password": "password202"
+        }
+    ]
+}

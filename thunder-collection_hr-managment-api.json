@@ -1,0 +1,146 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "hr-managment-api",
+    "collectionId": "83d5a80e-0d3c-44a9-b8bc-1b70fadbf3ec",
+    "dateExported": "2024-09-16T03:10:10.776Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "7227776c-60f3-44bb-a2be-1a30bd856f0c",
+            "name": "Employee",
+            "containerId": "",
+            "created": "2024-09-15T18:14:18.263Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "7289daf1-2a35-4c93-a3f3-354d7dd3e9b3",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-09-15T18:14:39.623Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "096c38b8-3edd-4ec5-8652-cf88ad3c66d5",
+            "colId": "83d5a80e-0d3c-44a9-b8bc-1b70fadbf3ec",
+            "containerId": "7227776c-60f3-44bb-a2be-1a30bd856f0c",
+            "name": "Delete Employee",
+            "url": "http://localhost:3000/employees/21",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-09-15T18:08:05.735Z",
+            "modified": "2024-09-15T18:14:01.545Z",
+            "headers": []
+        },
+        {
+            "_id": "27b18653-433b-4afc-8d21-65766c6b2506",
+            "colId": "83d5a80e-0d3c-44a9-b8bc-1b70fadbf3ec",
+            "containerId": "7289daf1-2a35-4c93-a3f3-354d7dd3e9b3",
+            "name": "Get Users",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-09-15T18:14:56.377Z",
+            "modified": "2024-09-15T18:15:17.985Z",
+            "headers": []
+        },
+        {
+            "_id": "2c15c031-1173-4be8-8e61-17ab2dd17491",
+            "colId": "83d5a80e-0d3c-44a9-b8bc-1b70fadbf3ec",
+            "containerId": "7227776c-60f3-44bb-a2be-1a30bd856f0c",
+            "name": "Update Employee",
+            "url": "http://localhost:3000/employees/21",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-09-15T18:08:13.050Z",
+            "modified": "2024-09-15T18:14:04.689Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Prueba2\",\n    \"position\": \"Prueba2\",\n    \"deparment\": \"Prueba2\",\n    \"email\": \"Prueba2.com\",\n    \"phone\": \"1234-1234\"\n  }",
+                "form": []
+            }
+        },
+        {
+            "_id": "2b4eae13-f667-4b3d-94c0-d7c565a9df7e",
+            "colId": "83d5a80e-0d3c-44a9-b8bc-1b70fadbf3ec",
+            "containerId": "7289daf1-2a35-4c93-a3f3-354d7dd3e9b3",
+            "name": "Get Users by Email",
+            "url": "http://localhost:3000/users?email=dani@company.com",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-15T18:15:24.356Z",
+            "modified": "2024-09-15T18:24:30.734Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "dani@company.com",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "a37903d5-e250-41e9-a30e-3969a211b761",
+            "colId": "83d5a80e-0d3c-44a9-b8bc-1b70fadbf3ec",
+            "containerId": "7227776c-60f3-44bb-a2be-1a30bd856f0c",
+            "name": "Create Employee",
+            "url": "http://localhost:3000/employees",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-09-15T18:08:19.126Z",
+            "modified": "2024-09-15T18:13:50.736Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": 21,\n    \"name\": \"Prueba\",\n    \"position\": \"Prueba\",\n    \"deparment\": \"Prueba\",\n    \"email\": \"Prueba.com\",\n    \"phone\": \"1234-1234\"\n  }",
+                "form": []
+            }
+        },
+        {
+            "_id": "3a22af90-af9a-4183-9dec-1bd0f4f008d3",
+            "colId": "83d5a80e-0d3c-44a9-b8bc-1b70fadbf3ec",
+            "containerId": "7289daf1-2a35-4c93-a3f3-354d7dd3e9b3",
+            "name": "Get Users by Email Doesn't Exist",
+            "url": "http://localhost:3000/users?email=cokito@company.com",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-15T18:23:37.242Z",
+            "modified": "2024-09-15T18:24:38.646Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "cokito@company.com",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "8fe22073-82b2-4dea-8bf8-aae3fe362315",
+            "colId": "83d5a80e-0d3c-44a9-b8bc-1b70fadbf3ec",
+            "containerId": "7227776c-60f3-44bb-a2be-1a30bd856f0c",
+            "name": "Get Employee by ID",
+            "url": "http://localhost:3000/employees/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-09-15T18:08:32.215Z",
+            "modified": "2024-09-15T18:10:46.928Z",
+            "headers": []
+        },
+        {
+            "_id": "51bcb345-e7c8-4eb3-89d1-c44694046af4",
+            "colId": "83d5a80e-0d3c-44a9-b8bc-1b70fadbf3ec",
+            "containerId": "7227776c-60f3-44bb-a2be-1a30bd856f0c",
+            "name": "Get Employees",
+            "url": "http://localhost:3000/employees",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-09-15T18:08:37.131Z",
+            "modified": "2024-09-15T18:09:58.451Z",
+            "headers": []
+        }
+    ],
+    "ref": "hGwg0ETnY3pZiYVc1f43169I9X8c_HAzfV-OHTNpuCYDAyijnX1korgOB00NtE0nKOyazl82gqMJSkXjypOGlA"
+}

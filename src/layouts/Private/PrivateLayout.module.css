@@ -1,0 +1,11 @@
+.privatelayout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+}
+
+.main {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
